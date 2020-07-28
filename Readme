@@ -1,0 +1,31 @@
+To run this program, run CoffeeMachineTest.java
+
+There are few functional test cases, I added in CoffeeTest.java. Due to time paucity, I added few test cases only, checking the basic functionalities
+The assignment was interesting and certainly lot of scope for improvements.
+
+Below things as mentioned in the assignment are taken care:
+1. Create a single CoffeeMachine instance
+2. Creating "n" outlets in the coffee machine serving n people in parallel
+3. Refill the coffee machine
+4. Printing if beverage is prepared
+5. Printing if ingredient not present or in low quantity
+6. Display to print ingredient running low(Basic display)
+7. Tried using Singleton pattern for Inventory class and Observer pattern for Display and Inventory
+
+
+I read input from ​https://www.npoint.io/docs/e8cd5a9bbd1331de326a and copied into coffee.json
+
+Coffee requests are made in CoffeeTest.java
+
+Main class is CoffeeMachineTest.java
+
+Improvements possible:
+- Customized exception classes
+- Improvement in Display to implement Observer pattern more carefully.(I used basic principle of observer pattern)
+- More test cases
+- Factory pattern could be used to get Beverage object depending on the beverage name
+- Organized packages and directories
+- and there could be many more .....
+
+
+
